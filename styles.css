@@ -1,8 +1,0 @@
-body{margin:0;font-family:Arial;background:#0b1220;color:#fff;text-align:center}
-header{padding:40px}
-.hero{padding:60px;background:linear-gradient(90deg,#4f8cff,#8b5cf6)}
-.btn{display:inline-block;padding:12px 20px;background:#000;border-radius:30px;color:#fff;text-decoration:none}
-form{display:flex;flex-direction:column;gap:10px;max-width:300px;margin:auto}
-input,textarea{padding:10px;border:none;border-radius:5px}
-button{padding:10px;background:#4f8cff;color:#fff;border:none}
-.whatsapp{position:fixed;bottom:20px;right:20px;background:#25D366;color:#fff;padding:12px;border-radius:50%}
