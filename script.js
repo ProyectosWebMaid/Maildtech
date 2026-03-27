@@ -23,6 +23,8 @@ const form = document.getElementById('contactForm');
 if (form) {
   form.addEventListener('submit', () => {
     const btn = form.querySelector('button[type="submit"]');
-    if (btn) btn.textContent = 'Enviando...';
+    if (btn) {
+      btn.textContent = 'Enviando...';
+    }
   });
 }
