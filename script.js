@@ -1,4 +1,3 @@
-
 const toggle = document.querySelector('.menu-toggle');
 const nav = document.querySelector('.nav-links');
 
@@ -24,8 +23,6 @@ const form = document.getElementById('contactForm');
 if (form) {
   form.addEventListener('submit', () => {
     const btn = form.querySelector('button[type="submit"]');
-    if (btn) {
-      btn.textContent = 'Enviando...';
-    }
+    if (btn) btn.textContent = 'Enviando...';
   });
 }
